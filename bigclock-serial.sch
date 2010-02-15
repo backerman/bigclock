@@ -21,7 +21,7 @@ C 42900 42100 1 0 0 DB9-1.sym
 T 43900 45000 5 10 0 0 0 0 1
 device=DB9
 T 43100 45300 5 10 1 1 0 0 1
-refdes=CONN?
+refdes=CONN101
 T 42900 42100 5 10 0 0 0 0 1
 footprint=DB9F
 }
@@ -30,7 +30,7 @@ C 46100 44700 1 0 0 max232-2.sym
 T 46400 48350 5 10 0 0 0 0 1
 device=MAX232
 T 47800 48200 5 10 1 1 0 6 1
-refdes=U?
+refdes=U101
 T 46400 48550 5 10 0 0 0 0 1
 footprint=DIP16
 }
@@ -39,7 +39,7 @@ C 45200 47400 1 90 0 capacitor-1.sym
 T 44500 47600 5 10 0 0 90 0 1
 device=CAPACITOR
 T 44900 48200 5 10 1 1 180 0 1
-refdes=C?
+refdes=C101
 T 44300 47600 5 10 0 0 90 0 1
 symversion=0.1
 T 45200 47400 5 10 0 0 90 0 1
@@ -55,7 +55,7 @@ C 45200 46100 1 90 0 capacitor-1.sym
 T 44500 46300 5 10 0 0 90 0 1
 device=CAPACITOR
 T 44900 46900 5 10 1 1 180 0 1
-refdes=C?
+refdes=C102
 T 44300 46300 5 10 0 0 90 0 1
 symversion=0.1
 T 45200 46100 5 10 0 0 90 0 1
@@ -72,7 +72,7 @@ C 49300 47200 1 180 0 capacitor-1.sym
 T 49100 46500 5 10 0 0 180 0 1
 device=CAPACITOR
 T 48400 47100 5 10 1 1 0 0 1
-refdes=C?
+refdes=C104
 T 49100 46300 5 10 0 0 180 0 1
 symversion=0.1
 T 49300 47200 5 10 0 0 180 0 1
@@ -88,7 +88,7 @@ C 51300 46900 1 90 0 capacitor-1.sym
 T 50600 47100 5 10 0 0 90 0 1
 device=CAPACITOR
 T 51400 47600 5 10 1 1 180 0 1
-refdes=C?
+refdes=C105
 T 50400 47100 5 10 0 0 90 0 1
 symversion=0.1
 T 51300 46900 5 10 0 0 90 0 1
@@ -111,7 +111,7 @@ C 49300 48000 1 180 0 capacitor-1.sym
 T 49100 47300 5 10 0 0 180 0 1
 device=CAPACITOR
 T 48400 47900 5 10 1 1 0 0 1
-refdes=C?
+refdes=C103
 T 49100 47100 5 10 0 0 180 0 1
 symversion=0.1
 T 49300 48000 5 10 0 0 180 0 1

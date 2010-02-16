@@ -4,7 +4,7 @@ C 41200 50400 1 0 0 input-1.sym
 T 41200 50700 5 10 0 0 0 0 1
 device=INPUT
 T 41200 50400 5 10 0 0 0 0 1
-netname=DISP12:1
+net=DISP12:1
 T 41100 50600 5 10 1 1 180 0 1
 value=1+3 red
 }
@@ -13,7 +13,7 @@ C 41200 48400 1 0 0 input-1.sym
 T 41200 48700 5 10 0 0 0 0 1
 device=INPUT
 T 41200 48400 5 10 0 0 0 0 1
-netname=DISP12:2
+net=DISP12:2
 T 41100 48600 5 10 1 1 180 0 1
 value=1+2 e
 }
@@ -22,7 +22,7 @@ C 41200 48700 1 0 0 input-1.sym
 T 41200 49000 5 10 0 0 0 0 1
 device=INPUT
 T 41200 48700 5 10 0 0 0 0 1
-netname=DISP12:3
+net=DISP12:3
 T 41100 48900 5 10 1 1 180 0 1
 value=1+2 d
 }
@@ -31,7 +31,7 @@ C 41200 49000 1 0 0 input-1.sym
 T 41200 49300 5 10 0 0 0 0 1
 device=INPUT
 T 41200 49000 5 10 0 0 0 0 1
-netname=DISP12:4
+net=DISP12:4
 T 41100 49200 5 10 1 1 180 0 1
 value=1+2 c
 }
@@ -40,7 +40,7 @@ C 41200 49300 1 0 0 input-1.sym
 T 41200 49600 5 10 0 0 0 0 1
 device=INPUT
 T 41200 49300 5 10 0 0 0 0 1
-netname=DISP12:6
+net=DISP12:6
 T 41100 49500 5 10 1 1 180 0 1
 value=1+2 b
 }
@@ -49,7 +49,7 @@ C 41200 49600 1 0 0 input-1.sym
 T 41200 49900 5 10 0 0 0 0 1
 device=INPUT
 T 41200 49600 5 10 0 0 0 0 1
-netname=DISP12:7
+net=DISP12:7
 T 41100 49800 5 10 1 1 180 0 1
 value=1+2 a
 }
@@ -58,7 +58,7 @@ C 41200 47500 1 0 0 input-1.sym
 T 41200 47800 5 10 0 0 0 0 1
 device=INPUT
 T 41200 47500 5 10 0 0 0 0 1
-netname=DISP12:8
+net=DISP12:8
 T 41100 47700 5 10 1 1 180 0 1
 value=1+2 dp
 }
@@ -67,7 +67,7 @@ C 41200 48100 1 0 0 input-1.sym
 T 41200 48400 5 10 0 0 0 0 1
 device=INPUT
 T 41200 48100 5 10 0 0 0 0 1
-netname=DISP12:9
+net=DISP12:9
 T 41100 48300 5 10 1 1 180 0 1
 value=1+2 f
 }
@@ -76,7 +76,7 @@ C 41200 47800 1 0 0 input-1.sym
 T 41200 48100 5 10 0 0 0 0 1
 device=INPUT
 T 41200 47800 5 10 0 0 0 0 1
-netname=DISP12:10
+net=DISP12:10
 T 41100 48000 5 10 1 1 180 0 1
 value=1+2 g
 }
@@ -114,7 +114,7 @@ C 43200 44800 1 0 0 input-1.sym
 T 43200 45100 5 10 0 0 0 0 1
 device=INPUT
 T 43200 44800 5 10 0 0 0 0 1
-netname=DISP12:2
+net=DISP12:2
 T 43100 45000 5 10 1 1 180 0 1
 value=1+2 e
 }
@@ -123,7 +123,7 @@ C 43200 45100 1 0 0 input-1.sym
 T 43200 45400 5 10 0 0 0 0 1
 device=INPUT
 T 43200 45100 5 10 0 0 0 0 1
-netname=DISP12:3
+net=DISP12:3
 T 43100 45300 5 10 1 1 180 0 1
 value=1+2 d
 }
@@ -132,7 +132,7 @@ C 43200 45400 1 0 0 input-1.sym
 T 43200 45700 5 10 0 0 0 0 1
 device=INPUT
 T 43200 45400 5 10 0 0 0 0 1
-netname=DISP12:4
+net=DISP12:4
 T 43100 45600 5 10 1 1 180 0 1
 value=1+2 c
 }
@@ -141,7 +141,7 @@ C 43200 45700 1 0 0 input-1.sym
 T 43200 46000 5 10 0 0 0 0 1
 device=INPUT
 T 43200 45700 5 10 0 0 0 0 1
-netname=DISP12:6
+net=DISP12:6
 T 43100 45900 5 10 1 1 180 0 1
 value=1+2 b
 }
@@ -150,7 +150,7 @@ C 43200 46000 1 0 0 input-1.sym
 T 43200 46300 5 10 0 0 0 0 1
 device=INPUT
 T 43200 46000 5 10 0 0 0 0 1
-netname=DISP12:7
+net=DISP12:7
 T 43100 46200 5 10 1 1 180 0 1
 value=1+2 a
 }
@@ -159,7 +159,7 @@ C 43200 43900 1 0 0 input-1.sym
 T 43200 44200 5 10 0 0 0 0 1
 device=INPUT
 T 43200 43900 5 10 0 0 0 0 1
-netname=DISP12:8
+net=DISP12:8
 T 43100 44100 5 10 1 1 180 0 1
 value=1+2 dp
 }
@@ -168,7 +168,7 @@ C 43200 44500 1 0 0 input-1.sym
 T 43200 44800 5 10 0 0 0 0 1
 device=INPUT
 T 43200 44500 5 10 0 0 0 0 1
-netname=DISP12:9
+net=DISP12:9
 T 43100 44700 5 10 1 1 180 0 1
 value=1+2 f
 }
@@ -177,7 +177,7 @@ C 43200 44200 1 0 0 input-1.sym
 T 43200 44500 5 10 0 0 0 0 1
 device=INPUT
 T 43200 44200 5 10 0 0 0 0 1
-netname=DISP12:10
+net=DISP12:10
 T 43100 44400 5 10 1 1 180 0 1
 value=1+2 g
 }
@@ -194,7 +194,7 @@ C 41200 46800 1 0 0 input-1.sym
 T 41200 47100 5 10 0 0 0 0 1
 device=INPUT
 T 41200 46800 5 10 0 0 0 0 1
-netname=DISP34:1
+net=DISP34:1
 T 41100 47000 5 10 1 1 180 0 1
 value=2+4 red
 }
@@ -203,7 +203,7 @@ C 47800 48400 1 0 0 input-1.sym
 T 47800 48700 5 10 0 0 0 0 1
 device=INPUT
 T 47800 48400 5 10 0 0 0 0 1
-netname=DISP34:2
+net=DISP34:2
 T 47700 48600 5 10 1 1 180 0 1
 value=3+4 e
 }
@@ -212,7 +212,7 @@ C 47800 48700 1 0 0 input-1.sym
 T 47800 49000 5 10 0 0 0 0 1
 device=INPUT
 T 47800 48700 5 10 0 0 0 0 1
-netname=DISP34:3
+net=DISP34:3
 T 47700 48900 5 10 1 1 180 0 1
 value=3+4 d
 }
@@ -221,7 +221,7 @@ C 47800 49000 1 0 0 input-1.sym
 T 47800 49300 5 10 0 0 0 0 1
 device=INPUT
 T 47800 49000 5 10 0 0 0 0 1
-netname=DISP34:4
+net=DISP34:4
 T 47700 49200 5 10 1 1 180 0 1
 value=3+4 c
 }
@@ -230,7 +230,7 @@ C 47800 49300 1 0 0 input-1.sym
 T 47800 49600 5 10 0 0 0 0 1
 device=INPUT
 T 47800 49300 5 10 0 0 0 0 1
-netname=DISP34:6
+net=DISP34:6
 T 47700 49500 5 10 1 1 180 0 1
 value=3+4 b
 }
@@ -239,7 +239,7 @@ C 47800 49600 1 0 0 input-1.sym
 T 47800 49900 5 10 0 0 0 0 1
 device=INPUT
 T 47800 49600 5 10 0 0 0 0 1
-netname=DISP34:7
+net=DISP34:7
 T 47700 49800 5 10 1 1 180 0 1
 value=3+4 a
 }
@@ -248,7 +248,7 @@ C 47800 47500 1 0 0 input-1.sym
 T 47800 47800 5 10 0 0 0 0 1
 device=INPUT
 T 47800 47500 5 10 0 0 0 0 1
-netname=DISP34:8
+net=DISP34:8
 T 47700 47700 5 10 1 1 180 0 1
 value=3+4 dp
 }
@@ -257,7 +257,7 @@ C 47800 48100 1 0 0 input-1.sym
 T 47800 48400 5 10 0 0 0 0 1
 device=INPUT
 T 47800 48100 5 10 0 0 0 0 1
-netname=DISP34:9
+net=DISP34:9
 T 47700 48300 5 10 1 1 180 0 1
 value=3+4 f
 }
@@ -266,7 +266,7 @@ C 47800 47800 1 0 0 input-1.sym
 T 47800 48100 5 10 0 0 0 0 1
 device=INPUT
 T 47800 47800 5 10 0 0 0 0 1
-netname=DISP34:10
+net=DISP34:10
 T 47700 48000 5 10 1 1 180 0 1
 value=3+4 g
 }
@@ -303,7 +303,7 @@ C 49800 44800 1 0 0 input-1.sym
 T 49800 45100 5 10 0 0 0 0 1
 device=INPUT
 T 49800 44800 5 10 0 0 0 0 1
-netname=DISP34:2
+net=DISP34:2
 T 49700 45000 5 10 1 1 180 0 1
 value=3+4 e
 }
@@ -312,7 +312,7 @@ C 49800 45100 1 0 0 input-1.sym
 T 49800 45400 5 10 0 0 0 0 1
 device=INPUT
 T 49800 45100 5 10 0 0 0 0 1
-netname=DISP34:3
+net=DISP34:3
 T 49700 45300 5 10 1 1 180 0 1
 value=3+4 d
 }
@@ -321,7 +321,7 @@ C 49800 45400 1 0 0 input-1.sym
 T 49800 45700 5 10 0 0 0 0 1
 device=INPUT
 T 49800 45400 5 10 0 0 0 0 1
-netname=DISP34:4
+net=DISP34:4
 T 49700 45600 5 10 1 1 180 0 1
 value=3+4 c
 }
@@ -330,7 +330,7 @@ C 49800 45700 1 0 0 input-1.sym
 T 49800 46000 5 10 0 0 0 0 1
 device=INPUT
 T 49800 45700 5 10 0 0 0 0 1
-netname=DISP34:6
+net=DISP34:6
 T 49700 45900 5 10 1 1 180 0 1
 value=3+4 b
 }
@@ -339,7 +339,7 @@ C 49800 46000 1 0 0 input-1.sym
 T 49800 46300 5 10 0 0 0 0 1
 device=INPUT
 T 49800 46000 5 10 0 0 0 0 1
-netname=DISP34:7
+net=DISP34:7
 T 49700 46200 5 10 1 1 180 0 1
 value=3+4 a
 }
@@ -348,7 +348,7 @@ C 49800 43900 1 0 0 input-1.sym
 T 49800 44200 5 10 0 0 0 0 1
 device=INPUT
 T 49800 43900 5 10 0 0 0 0 1
-netname=DISP34:8
+net=DISP34:8
 T 49700 44100 5 10 1 1 180 0 1
 value=3+4 dp
 }
@@ -357,7 +357,7 @@ C 49800 44500 1 0 0 input-1.sym
 T 49800 44800 5 10 0 0 0 0 1
 device=INPUT
 T 49800 44500 5 10 0 0 0 0 1
-netname=DISP34:9
+net=DISP34:9
 T 49700 44700 5 10 1 1 180 0 1
 value=3+4 f
 }
@@ -366,7 +366,7 @@ C 49800 44200 1 0 0 input-1.sym
 T 49800 44500 5 10 0 0 0 0 1
 device=INPUT
 T 49800 44200 5 10 0 0 0 0 1
-netname=DISP34:10
+net=DISP34:10
 T 49700 44400 5 10 1 1 180 0 1
 value=3+4 g
 }
@@ -383,7 +383,7 @@ C 41200 43200 1 0 0 input-1.sym
 T 41200 43500 5 10 0 0 0 0 1
 device=INPUT
 T 41200 43200 5 10 0 0 0 0 1
-netname=DISP56:1
+net=DISP56:1
 T 41100 43400 5 10 1 1 180 0 1
 value=5+7 red
 }
@@ -392,7 +392,7 @@ C 41200 41200 1 0 0 input-1.sym
 T 41200 41500 5 10 0 0 0 0 1
 device=INPUT
 T 41200 41200 5 10 0 0 0 0 1
-netname=DISP56:2
+net=DISP56:2
 T 41100 41400 5 10 1 1 180 0 1
 value=5+6 e
 }
@@ -401,7 +401,7 @@ C 41200 41500 1 0 0 input-1.sym
 T 41200 41800 5 10 0 0 0 0 1
 device=INPUT
 T 41200 41500 5 10 0 0 0 0 1
-netname=DISP56:3
+net=DISP56:3
 T 41100 41700 5 10 1 1 180 0 1
 value=5+6 d
 }
@@ -410,7 +410,7 @@ C 41200 41800 1 0 0 input-1.sym
 T 41200 42100 5 10 0 0 0 0 1
 device=INPUT
 T 41200 41800 5 10 0 0 0 0 1
-netname=DISP56:4
+net=DISP56:4
 T 41100 42000 5 10 1 1 180 0 1
 value=5+6 c
 }
@@ -419,7 +419,7 @@ C 41200 42100 1 0 0 input-1.sym
 T 41200 42400 5 10 0 0 0 0 1
 device=INPUT
 T 41200 42100 5 10 0 0 0 0 1
-netname=DISP56:6
+net=DISP56:6
 T 41100 42300 5 10 1 1 180 0 1
 value=5+6 b
 }
@@ -428,7 +428,7 @@ C 41200 42400 1 0 0 input-1.sym
 T 41200 42700 5 10 0 0 0 0 1
 device=INPUT
 T 41200 42400 5 10 0 0 0 0 1
-netname=DISP56:7
+net=DISP56:7
 T 41100 42600 5 10 1 1 180 0 1
 value=5+6 a
 }
@@ -437,7 +437,7 @@ C 41200 40300 1 0 0 input-1.sym
 T 41200 40600 5 10 0 0 0 0 1
 device=INPUT
 T 41200 40300 5 10 0 0 0 0 1
-netname=DISP56:8
+net=DISP56:8
 T 41100 40500 5 10 1 1 180 0 1
 value=5+6 dp
 }
@@ -446,7 +446,7 @@ C 41200 40900 1 0 0 input-1.sym
 T 41200 41200 5 10 0 0 0 0 1
 device=INPUT
 T 41200 40900 5 10 0 0 0 0 1
-netname=DISP56:9
+net=DISP56:9
 T 41100 41100 5 10 1 1 180 0 1
 value=5+6 f
 }
@@ -455,7 +455,7 @@ C 41200 40600 1 0 0 input-1.sym
 T 41200 40900 5 10 0 0 0 0 1
 device=INPUT
 T 41200 40600 5 10 0 0 0 0 1
-netname=DISP56:10
+net=DISP56:10
 T 41100 40800 5 10 1 1 180 0 1
 value=5+6 g
 }
@@ -493,7 +493,7 @@ C 43200 37600 1 0 0 input-1.sym
 T 43200 37900 5 10 0 0 0 0 1
 device=INPUT
 T 43200 37600 5 10 0 0 0 0 1
-netname=DISP56:2
+net=DISP56:2
 T 43100 37800 5 10 1 1 180 0 1
 value=5+6 e
 }
@@ -502,7 +502,7 @@ C 43200 37900 1 0 0 input-1.sym
 T 43200 38200 5 10 0 0 0 0 1
 device=INPUT
 T 43200 37900 5 10 0 0 0 0 1
-netname=DISP56:3
+net=DISP56:3
 T 43100 38100 5 10 1 1 180 0 1
 value=5+6 d
 }
@@ -511,7 +511,7 @@ C 43200 38200 1 0 0 input-1.sym
 T 43200 38500 5 10 0 0 0 0 1
 device=INPUT
 T 43200 38200 5 10 0 0 0 0 1
-netname=DISP56:4
+net=DISP56:4
 T 43100 38400 5 10 1 1 180 0 1
 value=5+6 c
 }
@@ -520,7 +520,7 @@ C 43200 38500 1 0 0 input-1.sym
 T 43200 38800 5 10 0 0 0 0 1
 device=INPUT
 T 43200 38500 5 10 0 0 0 0 1
-netname=DISP56:6
+net=DISP56:6
 T 43100 38700 5 10 1 1 180 0 1
 value=5+6 b
 }
@@ -529,7 +529,7 @@ C 43200 38800 1 0 0 input-1.sym
 T 43200 39100 5 10 0 0 0 0 1
 device=INPUT
 T 43200 38800 5 10 0 0 0 0 1
-netname=DISP56:7
+net=DISP56:7
 T 43100 39000 5 10 1 1 180 0 1
 value=5+6 a
 }
@@ -538,7 +538,7 @@ C 43200 36700 1 0 0 input-1.sym
 T 43200 37000 5 10 0 0 0 0 1
 device=INPUT
 T 43200 36700 5 10 0 0 0 0 1
-netname=DISP56:8
+net=DISP56:8
 T 43100 36900 5 10 1 1 180 0 1
 value=5+6 dp
 }
@@ -547,7 +547,7 @@ C 43200 37300 1 0 0 input-1.sym
 T 43200 37600 5 10 0 0 0 0 1
 device=INPUT
 T 43200 37300 5 10 0 0 0 0 1
-netname=DISP56:9
+net=DISP56:9
 T 43100 37500 5 10 1 1 180 0 1
 value=5+6 f
 }
@@ -556,7 +556,7 @@ C 43200 37000 1 0 0 input-1.sym
 T 43200 37300 5 10 0 0 0 0 1
 device=INPUT
 T 43200 37000 5 10 0 0 0 0 1
-netname=DISP56:10
+net=DISP56:10
 T 43100 37200 5 10 1 1 180 0 1
 value=5+6 g
 }
@@ -573,7 +573,7 @@ C 41200 39700 1 0 0 input-1.sym
 T 41200 40000 5 10 0 0 0 0 1
 device=INPUT
 T 41200 39700 5 10 0 0 0 0 1
-netname=DISP78:1
+net=DISP78:1
 T 41100 39900 5 10 1 1 180 0 1
 value=6+8 red
 }
@@ -582,7 +582,7 @@ C 47800 41200 1 0 0 input-1.sym
 T 47800 41500 5 10 0 0 0 0 1
 device=INPUT
 T 47800 41200 5 10 0 0 0 0 1
-netname=DISP78:2
+net=DISP78:2
 T 47700 41400 5 10 1 1 180 0 1
 value=7+8 e
 }
@@ -591,7 +591,7 @@ C 47800 41500 1 0 0 input-1.sym
 T 47800 41800 5 10 0 0 0 0 1
 device=INPUT
 T 47800 41500 5 10 0 0 0 0 1
-netname=DISP78:3
+net=DISP78:3
 T 47700 41700 5 10 1 1 180 0 1
 value=7+8 d
 }
@@ -600,7 +600,7 @@ C 47800 41800 1 0 0 input-1.sym
 T 47800 42100 5 10 0 0 0 0 1
 device=INPUT
 T 47800 41800 5 10 0 0 0 0 1
-netname=DISP78:4
+net=DISP78:4
 T 47700 42000 5 10 1 1 180 0 1
 value=7+8 c
 }
@@ -609,7 +609,7 @@ C 47800 42100 1 0 0 input-1.sym
 T 47800 42400 5 10 0 0 0 0 1
 device=INPUT
 T 47800 42100 5 10 0 0 0 0 1
-netname=DISP78:6
+net=DISP78:6
 T 47700 42300 5 10 1 1 180 0 1
 value=7+8 b
 }
@@ -618,7 +618,7 @@ C 47800 42400 1 0 0 input-1.sym
 T 47800 42700 5 10 0 0 0 0 1
 device=INPUT
 T 47800 42400 5 10 0 0 0 0 1
-netname=DISP78:7
+net=DISP78:7
 T 47700 42600 5 10 1 1 180 0 1
 value=7+8 a
 }
@@ -627,7 +627,7 @@ C 47800 40300 1 0 0 input-1.sym
 T 47800 40600 5 10 0 0 0 0 1
 device=INPUT
 T 47800 40300 5 10 0 0 0 0 1
-netname=DISP78:8
+net=DISP78:8
 T 47700 40500 5 10 1 1 180 0 1
 value=7+8 dp
 }
@@ -636,7 +636,7 @@ C 47800 40900 1 0 0 input-1.sym
 T 47800 41200 5 10 0 0 0 0 1
 device=INPUT
 T 47800 40900 5 10 0 0 0 0 1
-netname=DISP78:9
+net=DISP78:9
 T 47700 41100 5 10 1 1 180 0 1
 value=7+8 f
 }
@@ -645,7 +645,7 @@ C 47800 40600 1 0 0 input-1.sym
 T 47800 40900 5 10 0 0 0 0 1
 device=INPUT
 T 47800 40600 5 10 0 0 0 0 1
-netname=DISP78:10
+net=DISP78:10
 T 47700 40800 5 10 1 1 180 0 1
 value=7+8 g
 }
@@ -682,7 +682,7 @@ C 49800 37600 1 0 0 input-1.sym
 T 49800 37900 5 10 0 0 0 0 1
 device=INPUT
 T 49800 37600 5 10 0 0 0 0 1
-netname=DISP78:2
+net=DISP78:2
 T 49700 37800 5 10 1 1 180 0 1
 value=7+8 e
 }
@@ -691,7 +691,7 @@ C 49800 37900 1 0 0 input-1.sym
 T 49800 38200 5 10 0 0 0 0 1
 device=INPUT
 T 49800 37900 5 10 0 0 0 0 1
-netname=DISP78:3
+net=DISP78:3
 T 49700 38100 5 10 1 1 180 0 1
 value=7+8 d
 }
@@ -700,7 +700,7 @@ C 49800 38200 1 0 0 input-1.sym
 T 49800 38500 5 10 0 0 0 0 1
 device=INPUT
 T 49800 38200 5 10 0 0 0 0 1
-netname=DISP78:4
+net=DISP78:4
 T 49700 38400 5 10 1 1 180 0 1
 value=7+8 c
 }
@@ -709,7 +709,7 @@ C 49800 38500 1 0 0 input-1.sym
 T 49800 38800 5 10 0 0 0 0 1
 device=INPUT
 T 49800 38500 5 10 0 0 0 0 1
-netname=DISP78:6
+net=DISP78:6
 T 49700 38700 5 10 1 1 180 0 1
 value=7+8 b
 }
@@ -718,7 +718,7 @@ C 49800 38800 1 0 0 input-1.sym
 T 49800 39100 5 10 0 0 0 0 1
 device=INPUT
 T 49800 38800 5 10 0 0 0 0 1
-netname=DISP78:7
+net=DISP78:7
 T 49700 39000 5 10 1 1 180 0 1
 value=7+8 a
 }
@@ -727,7 +727,7 @@ C 49800 36700 1 0 0 input-1.sym
 T 49800 37000 5 10 0 0 0 0 1
 device=INPUT
 T 49800 36700 5 10 0 0 0 0 1
-netname=DISP78:8
+net=DISP78:8
 T 49700 36900 5 10 1 1 180 0 1
 value=7+8 dp
 }
@@ -736,7 +736,7 @@ C 49800 37300 1 0 0 input-1.sym
 T 49800 37600 5 10 0 0 0 0 1
 device=INPUT
 T 49800 37300 5 10 0 0 0 0 1
-netname=DISP78:9
+net=DISP78:9
 T 49700 37500 5 10 1 1 180 0 1
 value=7+8 f
 }
@@ -745,7 +745,7 @@ C 49800 37000 1 0 0 input-1.sym
 T 49800 37300 5 10 0 0 0 0 1
 device=INPUT
 T 49800 37000 5 10 0 0 0 0 1
-netname=DISP78:10
+net=DISP78:10
 T 49700 37200 5 10 1 1 180 0 1
 value=7+8 g
 }

@@ -24,7 +24,7 @@ device=PWRJACK
 T 35000 54100 5 10 1 1 0 0 1
 refdes=CONN1
 T 35000 53600 5 10 0 0 0 0 1
-footprint=Power_Jack
+footprint=CON__CUI_PJ-202AH.fp
 }
 C 36300 50800 1 90 0 switch-pushbutton-no-1.sym
 {
@@ -933,14 +933,14 @@ C 40400 44200 1 0 0 output-1.sym
 T 40500 44500 5 10 0 0 0 0 1
 device=OUTPUT
 T 40700 44400 5 10 1 1 0 0 1
-netname=RX
+net=RX:1
 }
 C 40400 43900 1 0 0 output-1.sym
 {
 T 40500 44200 5 10 0 0 0 0 1
 device=OUTPUT
 T 40700 43700 5 10 1 1 0 0 1
-netname=TX
+net=TX:1
 }
 N 40000 44300 40400 44300 4
 N 40000 44100 40400 44100 4

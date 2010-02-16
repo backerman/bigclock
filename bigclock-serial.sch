@@ -7,14 +7,14 @@ C 49400 45900 1 180 0 input-1.sym
 T 49400 45600 5 10 0 0 180 0 1
 device=INPUT
 T 49700 45900 5 10 1 1 180 0 1
-netname=RX
+net=RX:1
 }
 C 49400 46300 1 180 0 input-1.sym
 {
 T 49400 46000 5 10 0 0 180 0 1
 device=INPUT
 T 49700 46300 5 10 1 1 180 0 1
-netname=TX
+net=TX:1
 }
 C 42900 42100 1 0 0 DB9-1.sym
 {

@@ -87,7 +87,7 @@ refdes=U201
 T 43810 48560 5 10 0 0 0 0 1
 device=SA56
 T 43810 48760 5 10 0 0 0 0 1
-footprint=Kingbright_SA56
+footprint=LED_Kingbright_Sx56
 }
 C 44800 44100 1 0 0 SA56.sym
 {
@@ -96,7 +96,7 @@ refdes=U202
 T 45610 45460 5 10 0 0 0 0 1
 device=SA56
 T 45610 45660 5 10 0 0 0 0 1
-footprint=Kingbright_SA56
+footprint=LED_Kingbright_Sx56
 }
 N 42000 50500 46200 50500 4
 N 46200 50500 46200 47200 4
@@ -279,7 +279,7 @@ refdes=U203
 T 50410 48560 5 10 0 0 0 0 1
 device=SA56
 T 50410 48760 5 10 0 0 0 0 1
-footprint=Kingbright_SA56
+footprint=LED_Kingbright_Sx56
 }
 C 51400 44100 1 0 0 SA56.sym
 {
@@ -288,7 +288,7 @@ refdes=U204
 T 52210 45460 5 10 0 0 0 0 1
 device=SA56
 T 52210 45660 5 10 0 0 0 0 1
-footprint=Kingbright_SA56
+footprint=LED_Kingbright_Sx56
 }
 N 48600 50500 52800 50500 4
 N 52800 50500 52800 47200 4
@@ -467,20 +467,20 @@ value=5+6 g
 C 43000 40500 1 0 0 SA56.sym
 {
 T 43610 43410 5 10 1 1 0 6 1
-refdes=U201
+refdes=U205
 T 43810 41860 5 10 0 0 0 0 1
 device=SA56
 T 43810 42060 5 10 0 0 0 0 1
-footprint=Kingbright_SA56
+footprint=LED_Kingbright_Sx56
 }
 C 44800 37400 1 0 0 SA56.sym
 {
 T 45410 40310 5 10 1 1 0 6 1
-refdes=U202
+refdes=U206
 T 45610 38760 5 10 0 0 0 0 1
 device=SA56
 T 45610 38960 5 10 0 0 0 0 1
-footprint=Kingbright_SA56
+footprint=LED_Kingbright_Sx56
 }
 N 42000 43800 46200 43800 4
 N 46200 43800 46200 40500 4
@@ -659,20 +659,20 @@ value=7+8 g
 C 49600 40500 1 0 0 SA56.sym
 {
 T 50210 43410 5 10 1 1 0 6 1
-refdes=U203
+refdes=U207
 T 50410 41860 5 10 0 0 0 0 1
 device=SA56
 T 50410 42060 5 10 0 0 0 0 1
-footprint=Kingbright_SA56
+footprint=LED_Kingbright_Sx56
 }
 C 51400 37400 1 0 0 SA56.sym
 {
 T 52010 40310 5 10 1 1 0 6 1
-refdes=U204
+refdes=U208
 T 52210 38760 5 10 0 0 0 0 1
 device=SA56
 T 52210 38960 5 10 0 0 0 0 1
-footprint=Kingbright_SA56
+footprint=LED_Kingbright_Sx56
 }
 N 48600 43800 52800 43800 4
 N 52800 43800 52800 40500 4

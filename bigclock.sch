@@ -402,7 +402,7 @@ net=DISP12:1
 T 51500 53900 5 10 0 0 0 0 1
 device=none
 T 52200 53300 5 10 1 1 0 1 1
-value=1+2 red
+value=1+3 red
 }
 C 51300 52800 1 0 0 output-2.sym
 {
@@ -411,7 +411,7 @@ net=DISP12:5
 T 51500 53500 5 10 0 0 0 0 1
 device=none
 T 52200 52900 5 10 1 1 0 1 1
-value=1+2 green
+value=1+3 green
 }
 C 51300 52400 1 0 0 output-2.sym
 {
@@ -594,7 +594,7 @@ net=DISP34:1
 T 51500 48000 5 10 0 0 0 0 1
 device=none
 T 52200 47400 5 10 1 1 0 1 1
-value=3+4 red
+value=2+4 red
 }
 C 51300 46900 1 0 0 output-2.sym
 {
@@ -603,7 +603,7 @@ net=DISP34:5
 T 51500 47600 5 10 0 0 0 0 1
 device=none
 T 52200 47000 5 10 1 1 0 1 1
-value=3+4 green
+value=2+4 green
 }
 N 51300 47000 50100 47000 4
 N 50100 47000 50100 47900 4
@@ -698,7 +698,7 @@ net=DISP56:1
 T 51100 45000 5 10 0 0 0 0 1
 device=none
 T 51800 44400 5 10 1 1 0 1 1
-value=5+6 red
+value=5+7 red
 }
 C 50900 43900 1 0 0 output-2.sym
 {
@@ -707,7 +707,7 @@ net=DISP56:5
 T 51100 44600 5 10 0 0 0 0 1
 device=none
 T 51800 44000 5 10 1 1 0 1 1
-value=5+6 green
+value=5+7 green
 }
 C 50900 43500 1 0 0 output-2.sym
 {
@@ -860,7 +860,7 @@ net=DISP78:1
 T 51100 39100 5 10 0 0 0 0 1
 device=none
 T 51800 38500 5 10 1 1 0 1 1
-value=7+8 red
+value=6+8 red
 }
 C 50900 38000 1 0 0 output-2.sym
 {
@@ -869,7 +869,7 @@ net=DISP78:5
 T 51100 38700 5 10 0 0 0 0 1
 device=none
 T 51800 38100 5 10 1 1 0 1 1
-value=7+8 green
+value=6+8 green
 }
 N 49400 44200 50900 44200 4
 N 50900 44200 50900 44400 4

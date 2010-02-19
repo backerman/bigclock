@@ -1,4 +1,0 @@
-schematics bigclock.sch bigclock-serial.sch bigclock-display.sch
-elements-dir ../luciani-footprints
-elements-dir ../gedasyms/pcb
-output-name board

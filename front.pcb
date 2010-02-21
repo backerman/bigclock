@@ -1,5 +1,5 @@
-# release: pcb 20091103
-# date:    Sun Feb 21 20:02:55 2010
+# release: pcb 1.99z
+# date:    Sun Feb 21 22:49:11 2010
 # user:    bsa3 (Brad Ackerman)
 # host:    ibuki.facefault.org
 
@@ -13,7 +13,7 @@ Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
-Flags("showdrc,nameonpcb,autodrc,uniquename,clearnew,snappin")
+Flags("showdrc,nameonpcb,autodrc,uniquename,clearnew,snappin,onlynames")
 Groups("1,2,3,c:4,5,6,s")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
@@ -921,7 +921,7 @@ Element["" "R025" "R301" "10k" 310000 265000 12000 -2000 0 100 ""]
 
 	)
 
-Element["" "SW__Panasonic_EVQPA_Series" "S304" "unknown" 320000 235000 -5000 -14173 1 100 ""]
+Element["" "SW__Panasonic_EVQPA_Series" "S304" "unknown" 320000 235000 -10827 -20000 0 100 ""]
 (
 	Pin[12795 8858 7500 2000 9500 4600 "1" "1" "edge2"]
 	Pin[-12795 8858 7500 2000 9500 4600 "1" "1" "edge2"]
@@ -935,7 +935,7 @@ Element["" "SW__Panasonic_EVQPA_Series" "S304" "unknown" 320000 235000 -5000 -14
 
 	)
 
-Element["" "SW__Panasonic_EVQPA_Series" "S303" "unknown" 270000 235000 -5000 -14173 1 100 ""]
+Element["" "SW__Panasonic_EVQPA_Series" "S303" "unknown" 270000 235000 -10827 -20000 0 100 ""]
 (
 	Pin[12795 8858 7500 2000 9500 4600 "1" "1" "edge2"]
 	Pin[-12795 8858 7500 2000 9500 4600 "1" "1" "edge2"]
@@ -984,7 +984,7 @@ Element["" "DIL-24-600" "U302" "unknown" 15000 180000 5000 -32000 0 100 ""]
 
 	)
 
-Element["" "AXIAL_LAY-200" "C304" "10n" 135000 160000 3600 -17000 1 100 ""]
+Element["" "AXIAL_LAY-200" "C304" "10n" 135000 160000 3600 3000 1 100 ""]
 (
 	Pin[0 0 5500 3000 6100 3000 "1" "1" "square"]
 	Pin[0 -20000 5500 3000 6100 3000 "2" "2" ""]
@@ -997,7 +997,7 @@ Element["" "AXIAL_LAY-200" "C304" "10n" 135000 160000 3600 -17000 1 100 ""]
 
 	)
 
-Element["" "LED_Kingbright_Sx56" "U202" "unknown" 205000 30000 0 0 0 100 ""]
+Element["" "LED_Kingbright_Sx56" "U202" "unknown" 205000 30000 10000 15000 0 100 ""]
 (
 	Pin[12470 6970 6000 2000 6600 4000 "g" "10" ""]
 	Pin[12470 66970 6000 2000 6600 4000 "e" "1" ""]
@@ -1037,7 +1037,7 @@ Element["" "DIL-24-600" "U301" "unknown" 15000 90000 5000 -32000 0 100 ""]
 	Pin[80000 0 6000 3000 6600 2800 "P2" "9" "edge2"]
 	Pin[90000 0 6000 3000 6600 2800 "P1" "10" "edge2"]
 	Pin[100000 0 6000 3000 6600 2800 "MX1" "11" "edge2"]
-	Pin[110000 0 6000 3000 6600 2800 "VEE" "12" "selected,edge2"]
+	Pin[110000 0 6000 3000 6600 2800 "VEE" "12" "edge2"]
 	Pin[110000 -60000 6000 3000 6600 2800 "VCC" "13" "edge2"]
 	Pin[100000 -60000 6000 3000 6600 2800 "MX2" "14" "edge2"]
 	Pin[90000 -60000 6000 3000 6600 2800 "P9" "15" "edge2"]
@@ -1059,7 +1059,7 @@ Element["" "DIL-24-600" "U301" "unknown" 15000 90000 5000 -32000 0 100 ""]
 
 	)
 
-Element["" "AXIAL_LAY-200" "C302" "10n" 135000 65000 3600 -17000 1 100 ""]
+Element["" "AXIAL_LAY-200" "C302" "10n" 135000 65000 3600 -2000 1 100 ""]
 (
 	Pin[0 0 5500 3000 6100 3000 "1" "1" "square"]
 	Pin[0 -20000 5500 3000 6100 3000 "2" "2" ""]
@@ -1132,7 +1132,7 @@ Element["" "TO92" "Q302" "unknown" 155000 15000 1000 -13000 0 100 ""]
 
 	)
 
-Element["" "AXIAL_LAY-100" "C303" "2n7" 20000 195000 9500 2800 0 100 ""]
+Element["" "AXIAL_LAY-100" "C303" "2n7" 20000 195000 -500 2800 0 100 ""]
 (
 	Pin[0 0 5500 3000 6100 3000 "1" "1" "square,edge2"]
 	Pin[10000 0 5500 3000 6100 3000 "2" "2" "edge2"]
@@ -1145,7 +1145,7 @@ Element["" "AXIAL_LAY-100" "C303" "2n7" 20000 195000 9500 2800 0 100 ""]
 
 	)
 
-Element["" "AXIAL_LAY-100" "C301" "2n7" 30000 20000 -9500 -2800 2 100 ""]
+Element["" "AXIAL_LAY-100" "C301" "2n7" 30000 20000 -10500 -7200 0 100 ""]
 (
 	Pin[0 0 5500 3000 6100 3000 "1" "1" "square,edge2"]
 	Pin[-10000 0 5500 3000 6100 3000 "2" "2" "edge2"]
@@ -1158,7 +1158,7 @@ Element["" "AXIAL_LAY-100" "C301" "2n7" 30000 20000 -9500 -2800 2 100 ""]
 
 	)
 
-Element["" "SW__Panasonic_EVQPA_Series" "S302" "unknown" 220000 235000 -5000 -14173 1 100 ""]
+Element["" "SW__Panasonic_EVQPA_Series" "S302" "unknown" 220000 235000 -10827 -20000 0 100 ""]
 (
 	Pin[12795 8858 7500 2000 9500 4600 "1" "1" "edge2"]
 	Pin[-12795 8858 7500 2000 9500 4600 "1" "1" "edge2"]
@@ -1212,7 +1212,7 @@ Element["" "TO92" "Q312" "BC547" 260000 200000 1000 -13000 0 100 ""]
 
 	)
 
-Element["" "SW__Panasonic_EVQPA_Series" "S301" "unknown" 170000 235000 -5000 -14173 1 100 ""]
+Element["" "SW__Panasonic_EVQPA_Series" "S301" "unknown" 170000 235000 -10827 -20000 0 100 ""]
 (
 	Pin[12795 8858 7500 2000 9500 4600 "1" "1" "edge2"]
 	Pin[-12795 8858 7500 2000 9500 4600 "1" "1" "edge2"]
@@ -1246,7 +1246,7 @@ Element["" "TO92" "Q301" "BC547" 225000 15000 1000 -13000 0 100 ""]
 
 	)
 
-Element["" "LED_Kingbright_Sx56" "U208" "unknown" 325000 110000 0 0 0 100 ""]
+Element["" "LED_Kingbright_Sx56" "U208" "unknown" 325000 110000 10000 15000 0 100 ""]
 (
 	Pin[12470 6970 6000 2000 6600 4000 "g" "10" ""]
 	Pin[12470 66970 6000 2000 6600 4000 "e" "1" ""]
@@ -1273,7 +1273,7 @@ Element["" "LED_Kingbright_Sx56" "U208" "unknown" 325000 110000 0 0 0 100 ""]
 
 	)
 
-Element["" "LED_Kingbright_Sx56" "U207" "unknown" 265000 110000 0 0 0 100 ""]
+Element["" "LED_Kingbright_Sx56" "U207" "unknown" 265000 110000 10000 15000 0 100 ""]
 (
 	Pin[12470 6970 6000 2000 6600 4000 "g" "10" ""]
 	Pin[12470 66970 6000 2000 6600 4000 "e" "1" ""]
@@ -1300,7 +1300,7 @@ Element["" "LED_Kingbright_Sx56" "U207" "unknown" 265000 110000 0 0 0 100 ""]
 
 	)
 
-Element["" "LED_Kingbright_Sx56" "U206" "unknown" 205000 110000 0 0 0 100 ""]
+Element["" "LED_Kingbright_Sx56" "U206" "unknown" 205000 110000 10000 15000 0 100 ""]
 (
 	Pin[12470 6970 6000 2000 6600 4000 "g" "10" ""]
 	Pin[12470 66970 6000 2000 6600 4000 "e" "1" ""]
@@ -1327,7 +1327,7 @@ Element["" "LED_Kingbright_Sx56" "U206" "unknown" 205000 110000 0 0 0 100 ""]
 
 	)
 
-Element["" "LED_Kingbright_Sx56" "U205" "unknown" 145000 110000 0 0 0 100 ""]
+Element["" "LED_Kingbright_Sx56" "U205" "unknown" 145000 110000 10000 15000 0 100 ""]
 (
 	Pin[12470 6970 6000 2000 6600 4000 "g" "10" ""]
 	Pin[12470 66970 6000 2000 6600 4000 "e" "1" ""]
@@ -1354,7 +1354,7 @@ Element["" "LED_Kingbright_Sx56" "U205" "unknown" 145000 110000 0 0 0 100 ""]
 
 	)
 
-Element["" "LED_Kingbright_Sx56" "U204" "unknown" 325000 30000 0 0 0 100 ""]
+Element["" "LED_Kingbright_Sx56" "U204" "unknown" 325000 30000 10000 15000 0 100 ""]
 (
 	Pin[12470 6970 6000 2000 6600 4000 "g" "10" ""]
 	Pin[12470 66970 6000 2000 6600 4000 "e" "1" ""]
@@ -1381,7 +1381,7 @@ Element["" "LED_Kingbright_Sx56" "U204" "unknown" 325000 30000 0 0 0 100 ""]
 
 	)
 
-Element["" "LED_Kingbright_Sx56" "U201" "unknown" 145000 30000 0 0 0 100 ""]
+Element["" "LED_Kingbright_Sx56" "U201" "unknown" 145000 30000 10000 15000 0 100 ""]
 (
 	Pin[12470 6970 6000 2000 6600 4000 "g" "10" ""]
 	Pin[12470 66970 6000 2000 6600 4000 "e" "1" ""]
@@ -1408,7 +1408,7 @@ Element["" "LED_Kingbright_Sx56" "U201" "unknown" 145000 30000 0 0 0 100 ""]
 
 	)
 
-Element["" "LED_Kingbright_Sx56" "U203" "unknown" 265000 30000 0 0 0 100 ""]
+Element["" "LED_Kingbright_Sx56" "U203" "unknown" 265000 30000 10000 15000 0 100 ""]
 (
 	Pin[12470 6970 6000 2000 6600 4000 "g" "10" ""]
 	Pin[12470 66970 6000 2000 6600 4000 "e" "1" ""]
@@ -3023,6 +3023,10 @@ Layer(7 "silk")
 )
 Layer(8 "silk")
 (
+	Text[380000 215000 3 100 "4 8 15 16 23 42" ""]
+	Text[15000 270000 0 100 "http://github.com/backerman/bigclock" ""]
+	Text[60000 255000 0 100 "(c) B. Ackerman 2010. WTFPL" ""]
+	Text[60000 245000 0 100 "Eight-digit I2C display board" ""]
 )
 NetList()
 (

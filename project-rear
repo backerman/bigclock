@@ -1,4 +1,0 @@
-schematics bigclock-cpu.sch bigclock-serial.sch
-elements-dir ../luciani-footprints
-elements-dir ../gedasyms/pcb
-output-name rear
